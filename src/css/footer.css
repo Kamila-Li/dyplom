@@ -1,0 +1,202 @@
+.green-harvest-footer {
+  background-color: #7a3145;
+  color: #fbfbfb;
+  width: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-page-logo {
+  margin-bottom: 14px;
+  fill: #fbfbfb;
+}
+
+.logo-footer {
+  transition: fill 250ms ease-in-out;
+}
+
+.footer-mobile-logo,
+.footer-desktop-tablet-logo {
+  display: block;
+}
+
+.footer-desktop-tablet-logo {
+  display: none;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  color: #fbfbfb;
+  width: 296px;
+  margin-bottom: 40px;
+}
+
+.footer-menu-blok {
+  margin-bottom: 40px;
+}
+
+.footer-menu-item {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+  margin-bottom: 14px;
+}
+
+.footer-menu-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-contact-blok {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+  margin-bottom: 80px;
+}
+
+.footer-number-phone {
+  margin-bottom: 14px;
+}
+
+.footer-bottom {
+  display: flex;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+  justify-content: space-between;
+}
+
+.footer-bottom-text {
+  max-width: 179px;
+}
+
+.footer-nav li a,
+.footer-number-phone,
+.footer-page-logo,
+.footer-privacy-policy,
+.footer-cookie-settings {
+  display: inline-block;
+  transition: transform 250ms ease;
+}
+
+.footer-nav li a,
+.footer-number-phone,
+.footer-page-logo {
+  outline: none;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:focus,
+.footer-number-phone:hover,
+.footer-number-phone:focus,
+.footer-page-logo:hover,
+.footer-page-logo:focus,
+.footer-privacy-policy:hover,
+.footer-privacy-policy:focus,
+.footer-cookie-settings:hover,
+.footer-cookie-settings:focus {
+  transform: scale(1.07);
+}
+
+.footer-page-logo:hover,
+.footer-page-logo:focus {
+  fill: #fdbbac;
+}
+
+/* Styles for Tablet devices */
+@media screen and (min-width: 768px) {
+  .footer-mobile-logo {
+    display: none;
+  }
+
+  .footer-desktop-tablet-logo {
+    display: block;
+  }
+
+  .green-harvest-footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-page-logo {
+    margin-bottom: 25px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 265px;
+    margin-bottom: 0;
+  }
+
+  .footer-menu-item {
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    color: #fbfbfb;
+    margin-bottom: 25px;
+  }
+
+  .footer-menu-blok {
+    margin-bottom: 64px;
+  }
+
+  .footer-contact-blok {
+    font-size: 18px;
+    line-height: 1.11;
+    margin-bottom: 100px;
+  }
+
+  .footer-link-block {
+    width: 215px;
+  }
+
+  .footer-bottom {
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.01em;
+  }
+
+  .footer-bottom-text {
+    max-width: 215px;
+  }
+}
+
+/* Styles for Desktop devices */
+@media screen and (min-width: 1280px) {
+  .green-harvest-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .footer-link-block {
+    display: flex;
+    width: 513px;
+    justify-content: space-between;
+  }
+
+  .footer-menu-blok {
+    width: 178px;
+    margin-bottom: 125px;
+  }
+
+  .footer-contact-blok {
+    width: 215px;
+  }
+
+  .footer-number-phone {
+    margin-bottom: 25px;
+  }
+}
